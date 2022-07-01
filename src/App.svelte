@@ -18,7 +18,8 @@
 
   main {
     /* text-align: center; */
-    padding: 1em;
+    height: 100vh;
+    /* padding: 1em; */
     margin: 0 auto;
   }
 
