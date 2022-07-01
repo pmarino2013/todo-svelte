@@ -7,7 +7,7 @@
   import TodoForm from "./TodoForm.svelte";
 
   onMount(() => {
-    tareas = JSON.parse(localStorage.getItem("tareas"));
+    tareas = JSON.parse(localStorage.getItem("tareas")) || [];
   });
 
   afterUpdate(() => {
